@@ -2,27 +2,27 @@
  * @Author: JeRyWu 1365840492@qq.com
  * @Date: 2022-09-28 22:00:42
  * @LastEditors: JeRyWu 1365840492@qq.com
- * @LastEditTime: 2022-09-30 21:46:02
+ * @LastEditTime: 2022-09-30 21:57:11
  * @FilePath: /GoDownloader/GoDownloader.go
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
  package main
  import (
-	 "bufio"
-	 "fmt"
-	 "io/ioutil"
-	 "net/http"
- //	"net/url"
-	 "os"
- //	"path/filepath"
-	 "runtime"
-	 "sync"
-	 "flag"
-	 "io"
-	 "log"
-	 "math"
-	 "strconv"
-	 "time"
+	"bufio"
+	"fmt"
+	"io/ioutil"
+	"net/http"
+//	"net/url"
+	"os"
+//	"path/filepath"
+//	 "runtime"
+//	 "sync"
+//	 "flag"
+//	 "io"
+	"log"
+//	 "math"
+//	 "strconv"
+	"time"
  )
  //读Golang代码时学到的编程风格
  var (
