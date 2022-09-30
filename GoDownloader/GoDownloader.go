@@ -2,12 +2,11 @@
  * @Author: JeRyWu 1365840492@qq.com
  * @Date: 2022-09-28 22:00:42
  * @LastEditors: JeRyWu 1365840492@qq.com
- * @LastEditTime: 2022-09-30 21:15:05
+ * @LastEditTime: 2022-09-30 21:46:02
  * @FilePath: /GoDownloader/GoDownloader.go
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
  package main
-
  import (
 	 "bufio"
 	 "fmt"
@@ -19,7 +18,6 @@
 	 "runtime"
 	 "sync"
 	 "flag"
-	 "fmt"
 	 "io"
 	 "log"
 	 "math"
@@ -151,9 +149,9 @@
 	 fmt.Println("Merge file complete")
  }*/
  func main() {
-	 fmt.Println()
+	 fmt.Println("请输入下载目标url:")
 	 fmt.Scanln(&url)
-	 fmt.Println()
+	 fmt.Println("请输入文件保存的绝对路径（例如/home/1.jpg):")
 	 fmt.Scanln(&filepath)
 	 // 获取文件长度
 	 //length, _ = strconv.Atoi(resp.Header.Get("Content-Length"))
